@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditDatabase">
+
+  <!-- ScrollView to handle scrolling when content exceeds screen size -->
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+      <!-- Title TextView -->
+
+      <ImageButton
+          android:id="@+id/imageButton12"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+         android:layout_gravity="left"
+          app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+          tools:ignore="SpeakableTextPresentCheck" />
+
+      <TextView
+          android:id="@+id/textView12"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:text="Expenditure"
+          android:textAlignment="center"
+          android:textColor="#000000"
+          android:textSize="40sp" />
+
+      <!-- Button for Create PDF -->
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Create Pdf Copy"
+          android:textSize="25sp"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="10dp"/>
+
+      <!-- Button for Delete All Data -->
+      <Button
+          android:id="@+id/button3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Delete All Data!"
+          android:textSize="25sp"
+          android:layout_marginBottom="10dp"/>
+
+      <!-- Deal TextView -->
+      <TextView
+          android:id="@+id/textView13"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Deal"
+          android:textAlignment="center"
+          android:textSize="40sp"
+          android:textColor="#000000"/>
+
+      <!-- Button for another Create PDF action -->
+      <Button
+          android:id="@+id/button4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Create Pdf Copy"
+          android:textSize="25sp"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="10dp"/>
+
+      <!-- Button for Delete All Data again -->
+      <Button
+          android:id="@+id/button5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Delete All Data!"
+          android:textSize="25sp"
+          android:layout_marginBottom="10dp"/>
+
+      <!-- Sitting TextView -->
+      <TextView
+          android:id="@+id/textView14"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Sitting"
+          android:textAlignment="center"
+          android:textSize="40sp"
+          android:textColor="#000000"/>
+    </LinearLayout>
+  </ScrollView>
+
+  <!-- Close Button (ImageButton) -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

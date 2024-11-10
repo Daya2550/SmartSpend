@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartSpend</string>
+    <string name="action_settings">Settings</string>
+    <string name="large_text">Your large text goes here</string>
+</resources>
+
+    <!-- Other string resources -->
+
+
